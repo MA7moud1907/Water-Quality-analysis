@@ -55,7 +55,7 @@ The best model is selected based on evaluation metrics and then interpreted to r
 ## How to Run
 
 1. Open `water_quality_analysis_.ipynb` in Jupyter Notebook or VS Code.
-2. Make sure the data file is available at `data/water_quality_dataset_100k_new.csv`.
+2. Make sure the data file is available 
 3. Install the required Python packages if needed.
 4. Run the notebook cells in order.
 
