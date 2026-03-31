@@ -4,7 +4,7 @@ This project analyzes water quality data and builds machine learning models to p
 
 ## Project Overview
 
-The notebook `water_quality_analysis_solution.ipynb` explores a large water quality dataset, performs data cleaning and preprocessing, conducts exploratory data analysis (EDA), engineers features, trains classification models, and interprets the most important factors affecting water quality.
+The notebook `water_quality_analysis.ipynb` explores a large water quality dataset, performs data cleaning and preprocessing, conducts exploratory data analysis (EDA), engineers features, trains classification models, and interprets the most important factors affecting water quality.
 
 
 
@@ -18,7 +18,6 @@ The dataset contains water quality measurements from various water sources, incl
 The binary target variable `Target` indicates whether the sample meets water quality standards.
 
 The notebook also references the original dataset sources:
-- Subset dataset: https://drive.google.com/file/d/1NPnyvMMa4EgRMpCWd1LOOVGeOOmtcC6f/view?usp=drive_link
 - Original dataset on Kaggle: https://www.kaggle.com/datasets/mitanshuchakrawarty/water-quality-prediction/data?select=dataset.csv
 
 ## Key Steps
@@ -42,11 +41,6 @@ The notebook trains and evaluates several models including:
 
 The best model is selected based on evaluation metrics and then interpreted to reveal the most influential water quality factors.
 
-## Important Files
-
-- `water_quality_analysis_solution.ipynb` - main analysis and modeling notebook
-- `data/water_quality_dataset_100k_new.csv` - dataset used for the analysis
-- `data/preprocessed.csv` - preprocessed dataset output from the notebook
 
 ## Libraries Used
 
@@ -60,7 +54,7 @@ The best model is selected based on evaluation metrics and then interpreted to r
 
 ## How to Run
 
-1. Open `water_quality_analysis_solution.ipynb` in Jupyter Notebook or VS Code.
+1. Open `water_quality_analysis_.ipynb` in Jupyter Notebook or VS Code.
 2. Make sure the data file is available at `data/water_quality_dataset_100k_new.csv`.
 3. Install the required Python packages if needed.
 4. Run the notebook cells in order.
