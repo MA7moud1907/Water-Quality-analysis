@@ -6,10 +6,7 @@ This project analyzes water quality data and builds machine learning models to p
 
 The notebook `water_quality_analysis_solution.ipynb` explores a large water quality dataset, performs data cleaning and preprocessing, conducts exploratory data analysis (EDA), engineers features, trains classification models, and interprets the most important factors affecting water quality.
 
-## Dataset
 
-The main dataset is expected in the `data/` folder as:
-- `data/water_quality_dataset_100k_new.csv`
 
 ### Data Description
 
